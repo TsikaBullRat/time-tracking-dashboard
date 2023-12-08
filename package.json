@@ -1,0 +1,11 @@
+{
+  "name": "time-tracking-dashboard-main",
+  "version": "1.0.0",
+  "description": "Practice for class",
+  "main": "./res/server.js",
+  "scripts": {
+    "test": "node ./res/server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

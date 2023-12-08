@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./res/styles.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <aside>
+    <div class="profile">
+      <img src="./images/image-jeremy.png" class="profile-pic">
+      <p class="profile-txt special">Report for</p>
+      <h1 class="profile-tag">Jeremy Robinson</h1>
+    </div>
+    <p id="daily" class="special-hover"><span onclick="Daily()">Daily</span></p>
+    <p id="weekly" class="special-hover"><span onclick="Weekly()">Weekly</span></p>
+    <p id="monthly"class="special-hover"><span onclick="Monthly()">Monthly</span></p>
+  </aside>
+
+  <main>
+
+    <div class="box"><div class="outer-div bg-cl1">
+      <img src="images/icon-work.svg" alt="">
+      <div class="inner-div">
+        <h5>Work</h5>
+        <h1 id="c0">32hrs</h1>
+        <p id="p0" class="special">Last week - 36hrs</p>
+      </div>
+    </div></div>
+
+    <div class="box"><div class="outer-div bg-cl2">
+      <img src="images/icon-play.svg" alt="">
+      <div class="inner-div">
+        <h5>Play</h5>
+        <h1 id="c1">10hrs</h1>
+        <p id="p1" class="special">Last week - 8hrs</p>
+      </div>
+    </div></div>
+
+    <div class="box"><div class="outer-div bg-cl3">
+      <img src="images/icon-study.svg" alt="">
+      <div class="inner-div">
+        <h5>Study</h5>
+        <h1 id="c2">4hrs</h1>
+        <p id="p2" class="special">Last week - 7hrs</p>
+      </div>
+    </div></div>
+
+    <div class="box"><div class="outer-div bg-cl4">
+      <img src="images/icon-exercise.svg" alt="">
+      <div class="inner-div">
+        <h5>Exercise</h5>
+        <h1 id="c3">4hrs</h1>
+        <p id="p3" class="special">Last week - 5hrs</p>
+      </div>
+    </div></div>
+
+    <div class="box"><div class="outer-div bg-cl5">
+      <img src="images/icon-social.svg" alt="">
+      <div class="inner-div">
+        <h5>Social</h5>
+        <h1 id="c4">5hrs</h1>
+        <p id="p4" class="special">Last week - 10hrs</p>
+      </div>
+    </div></div>
+
+    <div class="box"><div class="outer-div bg-cl6">
+      <img src="images/icon-self-care.svg" alt="">
+      <div class="inner-div">
+        <h5>Self Care</h5>
+        <h1 id="c5">2hrs</h1>
+        <p id="p5" class="special">Last week - 2hrs</p>
+      </div>
+    </div></div>
+
+  </main>
+
+  <!--Script-->
+  <script src="./res/index.js"></script>
+</body>
+</html>
